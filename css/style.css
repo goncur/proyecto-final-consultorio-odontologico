@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Roboto:wght@100;400;700&display=swap')
+
+/****
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*****/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #D9D9D9;
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    height: 18.75rem;
+    text-align: justify;
+    font-size: medium;
+    color: black;
+
+}
+
+.navBar li{
+    list-style-type: none;
+    float: right;
+    word-spacing: 1.875rem;
+    text-align: center;
+    width: 5em;
+    margin-right: 2.5rem ;
+    padding: auto;
+
+}
+
+
+header nav ul li a {
+    text-decoration: none;
+}
+hr{
+    border: none;
+}
+
+header div a img{
+    width: 12.5rem;
+    height: 12.5rem;
+    padding: 1.25rem;
+}
+
+header nav .navBar{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+main{
+    background-color: #ABD3D5;
+}
+
+
+/****main*******/
+
+
+.contenedor{
+    width: 100%;
+    height: 600px;
+}
+
+.imagenesPag{
+    object-fit: contain;
+    width: 100%;
+    height: 100%
+
+}
+
+
+
+/***footeer*****/
+footer{
+    background-color: #D9D9D9;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 12.5rem;
+    bottom: 0;
+
+}
+.footerSection ul li{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+}
+
+.footerSection2{
+    display: block;
+}
+
+.videoServicios{
+    width: 6.25rem;
+    height: 9.375rem;
+}
+
+.imagenServicios{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+
+section .sectionPrincipal{
+    width: 100%;
+    height: 18.75rem;
+    background-color: white;
+
+}
+
+section div .fotoPrincipal{
+    width: 25rem;
+    height: 18.75rem;
+}
+
+.fotoLaura{
+    width: 6.25rem;
+    height: 9.375rem;
+}
